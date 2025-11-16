@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Testng Suite" parallel="tests" thread-count="4">
+    <test name="Testng Test 1">
+        <classes>
+            <class name="functional.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Testng Test 2">
+        <classes>
+            <class name="functional.LogoutTest"/>
+        </classes>
+    </test>
+    <test name="Testng Test 3">
+        <classes>
+            <class name="functional.AddToCartTest"/>
+        </classes>
+    </test>
+    <test name="Testng Test 4">
+        <classes>
+            <class name="functional.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>
