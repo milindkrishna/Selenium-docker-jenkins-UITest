@@ -70,18 +70,3 @@ Continuous deployment validation
 Headless browser testing in containerized environments
 
 This project exemplifies modern DevOps practices by combining test automation, containerization, and continuous integration for efficient and reliable UI testing workflows.
-
-#Simplified Maven Commands:
-
-# Java-Selenium-Docker-Jenkins
-Java Selenium Testing with Docker
-
-# Run using CMD - Run in Chrome in Remote webdriver
-mvn clean test "-Dbrowser=chrome" "-Dselenium.grid.enabled=true"
-
-# Run using CMD - Run in Firefox in Remote webdriver
-mvn clean test "-Dbrowser=firefox -Dselenium.grid.enabled=true"
-
-# Run using CMD - Run in Chrome in Local webdriver
-
-mvn clean test "-Dbrowser=chrome -Dselenium.grid.enabled=false"
